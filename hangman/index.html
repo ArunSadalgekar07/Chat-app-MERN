@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hangman Game</title>
+    <link rel="icon" href="./2.png" type="image/png">
+</head>
+
+<body>
+    <a href="http://localhost:5173/" class="back-button">Back to Chat</a>
+    <div class="container flex">
+        <div class="left_side gallows">
+            <div class="crossbarOne"></div>
+            <div class="floor"></div>
+            <div class="crossbar"></div>
+            <div class="post">
+                <div class="deadguy head"></div>
+                <div class="deadguy body">
+                    <div class="deadguy right-arm"></div>
+                    <div class="deadguy left-arm"></div>
+                    <div class="deadguy left-leg"></div>
+                    <div class="deadguy right-leg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="right_side">
+            <h1>Hangman game</h1>
+            <div class="choose_theme">
+                Choose a theme<br><br>
+                <button type="button" class="theme" value="0">City</button>
+                <button type="button" class="theme" value="1">Fruit</button>
+                <button type="button" class="theme" value="2">French food</button>
+            </div>
+            <div id="theme_display"></div>
+            <div id="result_display"></div>
+            <div id="word_display"></div><br>
+            <div id="keybord"></div>
+            <br>
+            <button type="button" class="new_game">New game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

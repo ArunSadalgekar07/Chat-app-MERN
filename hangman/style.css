@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-color: #333;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+p,
+button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+#word_display {
+    font-family: "VT323", monospace;
+    font-size: 3em;
+    height: fit-content;
+    padding-top: 10px;
+}
+
+#result_display {
+    font-family: "VT323", monospace;
+    font-size: 3em;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.space {
+    width: 120px;
+}
+
+.right_side {
+    width: 500px;
+}
+
+.gallows {
+    position: relative;
+}
+
+.post {
+    width: 10px;
+    height: 200px;
+    background-color: #666;
+}
+
+.crossbar {
+    width: 80px;
+    height: 10px;
+    background-color: #666;
+}
+
+.crossbarOne {
+    width: 10px;
+    height: 40px;
+    background-color: #666;
+    position: relative;
+    left: 70px;
+    top: 50px;
+    border-radius: 25px;
+}
+
+.floor {
+    width: 180px;
+    height: 10px;
+    background-color: #666;
+    position: relative;
+    top: 210px;
+    left: -30px;
+    border-radius: 25px;
+}
+
+.head {
+    position: relative;
+    left: 63px;
+    top: 30px;
+    width: 25px;
+    height: 25px;
+    background: khaki;
+    border-radius: 30px;
+}
+
+.body {
+    position: relative;
+    width: 6px;
+    height: 50px;
+    left: 73px;
+    top: 20px;
+    border-radius: 25px;
+    background-color: khaki;
+}
+
+.right-arm {
+    position: relative;
+    width: 5px;
+    height: 30px;
+    left: 10px;
+    top: 10px;
+    border-radius: 25px;
+    background-color: khaki;
+    transform: rotate(-45deg);
+}
+
+.left-arm {
+    position: relative;
+    width: 5px;
+    height: 30px;
+    left: -9px;
+    top: -20px;
+    border-radius: 25px;
+    background-color: khaki;
+    transform: rotate(45deg);
+}
+
+.right-leg {
+    position: relative;
+    width: 5px;
+    height: 40px;
+    left: 12px;
+    top: -58px;
+    border-radius: 25px;
+    background-color: khaki;
+    transform: rotate(-35deg);
+}
+
+.left-leg {
+    position: relative;
+    width: 5px;
+    height: 40px;
+    left: -11px;
+    top: -18px;
+    border-radius: 25px;
+    background-color: khaki;
+    transform: rotate(35deg);
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #666;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover {
+    background-color: #555;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:active {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
