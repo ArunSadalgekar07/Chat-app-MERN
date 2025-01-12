@@ -4,6 +4,13 @@
 
 ---
 
+## Video Output
+
+
+https://github.com/user-attachments/assets/64538fa9-6e53-4123-9e82-623e3fc8d6bb
+
+
+
 ## 📁 Project Structure
 
 The project is organized into the following main directories:
